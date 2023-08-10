@@ -1,0 +1,40 @@
+body {
+    font-family: 'Serif';
+    color:#323232
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    padding: 20px 50px;
+    gap: 15px;
+    align-items: center;
+    background-color: #DDD0C8;
+    height: 300px;
+}
+
+.top-header {
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom-header {
+    display: flex;
+}
+
+.bottom-header-left {
+    width: 400px;
+}
+
+ul {
+    display: flex;
+    gap: 15px;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #323232;
+}
+
+
